@@ -37,7 +37,7 @@ function Signup() {
 
     setLoading(true);
     try {
-      await axios.post("http://127.0.0.1:8000/api/signup/", form);
+      await axios.post("https://hr-4lye.onrender.com/api/signup/", form);
 
       alert("Signup Successful! Please login.");
       navigate("/");
